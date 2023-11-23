@@ -1,8 +1,33 @@
-# Plotting exercises
+# Prompt engineering exercises
 
-In order to test the generated code, you might run it in [Google Collab](https://colab.research.google.com)
+## To bear in mind
+
+Example of a Vague Prompt:
+
+**"Find information about genes related to cancer."**
+
+Issues with the Vague Prompt:
+
+    The prompt lacks specificity about the type of cancer or the specific information needed.
+    It does not specify the criteria for determining relevance or the desired format of the information.
+
+Example of a Well-Written Prompt:
+
+**_"Retrieve a list of known oncogenes associated with breast cancer and provide their official gene symbols, functions, and any known interactions with therapeutic agents."_**
+
+Advantages of the Well-Written Prompt:
+
+    Clearly specifies the target: oncogenes.
+    Provides additional context by specifying the association with breast cancer.
+    Clearly outlines the information required: official gene symbols, functions, and interactions with therapeutic agents.
+    This prompt is more likely to yield precise and relevant results compared to the vague prompt.
+
+Explanation:
+In bioinformatics, precision in prompt formulation is crucial to obtaining meaningful and relevant results. The well-written prompt not only specifies the type of genes (oncogenes) but also narrows down the focus to those associated with a particular type of cancer (breast cancer). Furthermore, it clearly outlines the desired information (official gene symbols, functions, and therapeutic interactions), providing a clear guideline for the search or analysis. This level of specificity helps in obtaining results that are directly applicable to the researcher's needs.
 
 ## Plotting with Python using PyDataset:
+
+In order to test the generated code, you might run it in [Google Collab](https://colab.research.google.com)
 
 ### 1. Scatter Plot
 
