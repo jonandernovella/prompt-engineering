@@ -1,6 +1,6 @@
 # Prompt engineering exercises
 
-In order to test the generated code, you might run it in (Google Collab)[https://colab.research.google.com]
+In order to test the generated code, you might run it in [Google Collab](https://colab.research.google.com)
 
 ## Plotting with Python using PyDataset:
 
