@@ -1,4 +1,4 @@
-# Prompt engineering exercises
+# Plotting exercises
 
 In order to test the generated code, you might run it in [Google Collab](https://colab.research.google.com)
 
