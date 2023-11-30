@@ -51,6 +51,24 @@ This gives us result which are quite similar, so in a sense the prompt behaves m
 
 Creates an image which looks painted. If you try to add `3d render`, you will get an image which is unnaturally sharp etc.
 
+## Keywords
+
+### Word order
+While the words behave kind of like key words (grammar is not that important), word order can actually matter and do so in non-intuitive ways. 
+
+### _medium_
+Thinking of the prompt as a set of keywords, there are some general components we can think of. In the example above, we added key words which tried to control the _medium_ the image looks to be created in. Other good words can be `pencil drawing`, `crayon drawing`, `oil painting`, `black and white photograph`, `watercolor`, `vector illustration` etc. Also adding adjectives describing this like `wet oil painting` or `blue pencil drawing`
+
+### style modifiers
+You can modify the style in other ways, a common example is to add `in the style of X`, where `X` is the name of some prolific artist. Other commonly used words are based on popular online art communities like `art station`, `deviant art`. While these are more subtle in style, they will tend to generate images which might be popular in these communities.
+
+Other style modifiers are those that describe something about the image such as `sloppy`, `exquisite`, `high resolution`, `4k`, `old`, `antique`.
+
+### Subject and scene
+You might have a subject in mind, but it often helps with overall quality if you also express the scene of the subjects. So instead of just `fluffy cat`, it could be `fluffy cat on a sofa`.
+
+
+
 ## Excercise 1 - splash image for presenation
 
 You've been invited to give a presentation at the regional innovation hub to present your research and you expertise. The seminar is open to the general public, so the talk will need to be on a popoular scientific level. **Create a splash image to be shown on the first slide together with the title of your pop-sci presentation**.
@@ -80,6 +98,7 @@ Looking at what prompts others have used to generate images can be helpful as a 
 - [CivitAI](https://civitai.com/)
 - [Lexica.art](https://lexica.art/)
 - [mage.space](https://www.mage.space/explore)
+- [Public Prompts](https://publicprompts.art/)
 
 # Next steps
 
