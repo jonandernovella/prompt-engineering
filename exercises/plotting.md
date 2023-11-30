@@ -8,8 +8,8 @@ Example of a Vague Prompt:
 
 Issues with the Vague Prompt:
 
-    The prompt lacks specificity about the type of cancer or the specific information needed.
-    It does not specify the criteria for determining relevance or the desired format of the information.
+- The prompt lacks specificity about the type of cancer or the specific information needed.
+  It does not specify the criteria for determining relevance or the desired format of the information.
 
 Example of a Well-Written Prompt:
 
@@ -17,10 +17,10 @@ Example of a Well-Written Prompt:
 
 Advantages of the Well-Written Prompt:
 
-    Clearly specifies the target: oncogenes.
-    Provides additional context by specifying the association with breast cancer.
-    Clearly outlines the information required: official gene symbols, functions, and interactions with therapeutic agents.
-    This prompt is more likely to yield precise and relevant results compared to the vague prompt.
+- Clearly specifies the target: oncogenes.
+- Provides additional context by specifying the association with breast cancer.
+- Clearly outlines the information required: official gene symbols, functions, and interactions with therapeutic agents.
+- This prompt is more likely to yield precise and relevant results compared to the vague prompt.
 
 ** Look at the slides to get some more tips on making your prompts more effective **
 
@@ -28,21 +28,21 @@ Advantages of the Well-Written Prompt:
 
 Two-step Reasoning:
 
-    * When to use: Use two-step reasoning when dealing with complex queries that can be logically divided into multiple steps.
-    * Scenario: You suspect that your data might be contaminated and want to find possible ways to solve it
-    * Example: Instead of asking the model a complex query like "Solve my issue," you can break it down into two steps: "Identify the problem in the uderlying data" and "Provide a solution." This two-step approach helps the model better understand and address the user's needs in a structured manner.
+- When to use: Use two-step reasoning when dealing with complex queries that can be logically divided into multiple steps.
+- Scenario: You suspect that your data might be contaminated and want to find possible ways to solve it
+- Example: Instead of asking the model a complex query like "Solve my issue," you can break it down into two steps: "Identify the problem in the uderlying data" and "Provide a solution." This two-step approach helps the model better understand and address the user's needs in a structured manner.
 
 Zero-shot:
 
-    * When to use: Use zero-shot when you want the model to generate relevant responses to queries it hasn't been explicitly trained on.
-    * Scenario: you want to be first introduced to NGS
-    * Example: "Please introduce me to the world of NGS"
+- When to use: Use zero-shot when you want the model to generate relevant responses to queries it hasn't been explicitly trained on.
+- Scenario: you want to be first introduced to NGS
+- Example: "Please introduce me to the world of NGS"
 
 Few-shot:
 
-    * When to use: Use few-shot when you have a small amount of task-specific examples or prompts to guide the model's behavior.
-    * Scenario: You want to make some plots and you have some different datasets belonging to different cohorts
-    * Example: Instead of providing all data at once, give a few examples from your different groups so the model can generalize from them and classify them to generate better code.
+- When to use: Use few-shot when you have a small amount of task-specific examples or prompts to guide the model's behavior.
+- Scenario: You want to make some plots and you have some different datasets belonging to different cohorts
+- Example: Instead of providing all data at once, give a few examples from your different groups so the model can generalize from them and classify them to generate better code.
 
 ## Plotting with Python using PyDataset:
 
@@ -68,7 +68,7 @@ plt.colorbar(label='Number of Cylinders')
 plt.show()
 ```
 
-** Task:**
+**Task:**
 
 - Now, modify the prompt to filter the data for cars with more than 4 cylinders and color-code the points based on their transmission type ('am').
 
@@ -122,7 +122,7 @@ plt.show()
 - Now, modify the code to include only data points where the species is 'setosa'.
 - Ask the chatbot to write some code to export the plot(s)
 
-### Discussion
+### 4. Discussion
 
 - Could you get the bot to spit out the exact same code as I pasted as examples? Did it do what you hoped for? Compare the results with other people. Is it deterministic?
 - How did it go with filtering the non-binary lynx?
