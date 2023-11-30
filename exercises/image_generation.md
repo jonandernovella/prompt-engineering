@@ -60,14 +60,15 @@ While the words behave kind of like key words (grammar is not that important), w
 Thinking of the prompt as a set of keywords, there are some general components we can think of. In the example above, we added key words which tried to control the _medium_ the image looks to be created in. Other good words can be `pencil drawing`, `crayon drawing`, `oil painting`, `black and white photograph`, `watercolor`, `vector illustration` etc. Also adding adjectives describing this like `wet oil painting` or `blue pencil drawing`
 
 ### style modifiers
-You can modify the style in other ways, a common example is to add `in the style of X`, where `X` is the name of some prolific artist. Other commonly used words are based on popular online art communities like `art station`, `deviant art`. While these are more subtle in style, they will tend to generate images which might be popular in these communities.
+You can modify the style in other ways, a common example is to add `in the style of X`, where `X` is the name of some prolific artist. Other commonly used words are based on popular online art communities like `art station` or `deviant art`. While these are more subtle in style, they will tend to generate images which might be popular in these communities.
 
-Other style modifiers are those that describe something about the image such as `sloppy`, `exquisite`, `high resolution`, `4k`, `old`, `antique`.
+Other style modifiers are those that describe something about the image such as `sloppy`, `exquisite`, `high resolution`, `4k`, `old`, `antique` or `photorealistic`.
 
 ### Subject and scene
-You might have a subject in mind, but it often helps with overall quality if you also express the scene of the subjects. So instead of just `fluffy cat`, it could be `fluffy cat on a sofa`.
+You might have a subject in mind, but it often helps with overall quality if you also express the scene of the subjects. So instead of just `fluffy cat`, it could be `fluffy cat on a sofa` and instead of just `samurai duck` it could be `samurai duck on a battlefield`
 
-
+### Fixing the image
+You might notice that some parts of the image looks weird, for example the eyes of a fluffy cat you generated. Adding extra words like `perfectly detailed eyes` or `hands with five fingers` might make the generation care more about these details.
 
 ## Excercise 1 - splash image for presenation
 
@@ -101,5 +102,9 @@ Looking at what prompts others have used to generate images can be helpful as a 
 - [Public Prompts](https://publicprompts.art/)
 
 # Next steps
+
+In this workshop we've used SDXL Turbo. It's main advantage is that it's very fast, but if you want more control and better generation you can try out regular SDXL using this colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FurkanGozukara/Stable-Diffusion/blob/main/ColabNotebooks/Stable_Diffusion_SDXL_on_Google_Colab.ipynb) 
 
 If you would like to dive deeper into this AI mealstrom, a good place to start is by installing [ComfyUI](https://github.com/comfyanonymous/ComfyUI). It's a powerful playground for designing generation workflows, supporting most of the models you can find on CivitAI. Do make full use of the software, you need a relatively recent GPU. While it's possible to generate images using only the CPU, it's much slower and mostly just useful to try things out.
