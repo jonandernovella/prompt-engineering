@@ -76,6 +76,8 @@ You've been invited to give a presentation at the regional innovation hub to pre
 
 The image should convey something important about your research or your area. The tone should match how you like to present things to a non-technical audience, so try to generate images which match material you might already have. The tone should likely be serius and not overly dramatic.
 
+**When you are done, please upload the image you have generated with the name "title_of_presentation.jpg" to [Exercise 1 - presentation splash image](https://drive.google.com/drive/folders/1cVpORd3hI_REfs7A0T5SWUCWfVt8DkQi?usp=sharing)**
+
 ## Excercise 2 - Career fair image for the department
 
 The head of your research group has received a last minute request to present your group at a career fair organized by the local university. Since your group leader doesn't have time to do it, the task falls to you.
@@ -84,6 +86,7 @@ The head of your research group has received a last minute request to present yo
 
 The image should be more flashy and eye-catching than in the previous exercise, while still conveying something interesting about the work that your group does. The audience are under graduate students who are considering their futures, what would be interesting images to attract them?
 
+**When you are done, please upload the image you have generated with the name "research_group_name.jpg" to [Exercise 2 - Research group presentation](https://drive.google.com/drive/folders/174xaOrdc1zmJ_3K5npNHaX3JasTjFaQi?usp=sharing)**
 
 ## Exercise 3 - AI blog post
 
@@ -92,6 +95,8 @@ As you are an expert prompt engineer, you have been invited by an PhD advisory p
 **Create a series of three (or more) images to support a blog post about the dangers of AI (you are free to come up with dangers as you like)**
 
 The images can be truly fanciful, and drawing inspiration from mythology/folk lore/horror will help to reinforce the message your text delivers. You don't have to write any text, but if you'd like you can use ChatGPT to help you.
+
+**When you are done, please upload the image you have generated with the names "some_unique_name_01.jpg", "some_unique_name_02.jpg", "some_unique_name_03.jpg", etc. to [Exercise 3 - AI danger blog posts](https://drive.google.com/drive/folders/1Q1ikOhD3IP86qvs-oaQSH-DoyNr5e8HH?usp=sharing)**
 
 ## Inspiration
 Looking at what prompts others have used to generate images can be helpful as a start, here are popular sites which showcase generated images:
@@ -108,3 +113,5 @@ In this workshop we've used SDXL Turbo. It's main advantage is that it's very fa
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FurkanGozukara/Stable-Diffusion/blob/main/ColabNotebooks/Stable_Diffusion_SDXL_on_Google_Colab.ipynb) 
 
 If you would like to dive deeper into this AI mealstrom, a good place to start is by installing [ComfyUI](https://github.com/comfyanonymous/ComfyUI). It's a powerful playground for designing generation workflows, supporting most of the models you can find on CivitAI. Do make full use of the software, you need a relatively recent GPU. While it's possible to generate images using only the CPU, it's much slower and mostly just useful to try things out.
+
+Another promising project is [Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion), an extension to the popular free software Krita which allows you to interact with generative AI inside the painting program, to modify parts of an image with inpainting or generate whole new images.
