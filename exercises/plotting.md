@@ -22,7 +22,7 @@ Advantages of the Well-Written Prompt:
 - Clearly outlines the information required: official gene symbols, functions, and interactions with therapeutic agents.
 - This prompt is more likely to yield precise and relevant results compared to the vague prompt.
 
-** Look at the slides to get some more tips on making your prompts more effective **
+**Look at the slides to get some more tips on making your prompts more effective**
 
 ## Prompting strategies
 
